@@ -3,6 +3,20 @@
   <PropertyGroup>
 	  <TargetFramework>net5.0-windows</TargetFramework>
 	  <UseWPF>true</UseWPF>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <Authors>modanbinghan</Authors>
+	  <Company>modanbinghan</Company>
+	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	  <Description>necessary interface and class for wpf mvvm.</Description>
+	  <PackageLicenseExpression></PackageLicenseExpression>
+	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
